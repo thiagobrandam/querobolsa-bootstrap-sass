@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = "bootstrap-sass"
+  s.name = "querobolsa-bootstrap-sass"
   s.version = '2.0.4.2'
   s.authors = ["Thomas McDonald"]
   s.email = 'tom@conceptcoding.co.uk'
