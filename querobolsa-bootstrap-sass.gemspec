@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "querobolsa-bootstrap-sass"
-  s.version = "0.2"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas McDonald"]
@@ -39,9 +39,9 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/bootstrap-tooltip.js",
     "vendor/assets/javascripts/bootstrap-transition.js",
     "vendor/assets/javascripts/bootstrap-typeahead.js",
-    "vendor/assets/javascripts/bootstrap.js",
-    "vendor/assets/stylesheets/_bootstrap-responsive.scss",
-    "vendor/assets/stylesheets/_bootstrap.scss",
+    "vendor/assets/javascripts/querobolsa-bootstrap.js",
+    "vendor/assets/stylesheets/_querobolsa-bootstrap-responsive.scss",
+    "vendor/assets/stylesheets/_querobolsa-bootstrap.scss",
     "vendor/assets/stylesheets/bootstrap/_accordion.scss",
     "vendor/assets/stylesheets/bootstrap/_alerts.scss",
     "vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss",
