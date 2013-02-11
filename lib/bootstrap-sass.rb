@@ -32,7 +32,7 @@ module Bootstrap
     base = File.join(File.dirname(__FILE__), '..')
     styles = File.join(base, 'vendor', 'assets', 'stylesheets')
     templates = File.join(base, 'templates')
-    ::Compass::Frameworks.register('bootstrap', :stylesheets_directory => styles, :templates_directory => templates)
+    ::Compass::Frameworks.register('querobolsa-bootstrap', :stylesheets_directory => styles, :templates_directory => templates)
   end
 
   def self.register_rails_engine

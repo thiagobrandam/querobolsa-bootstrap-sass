@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas McDonald"]
-  s.date = "2013-02-08"
+  s.date = "2013-02-11"
   s.description = "Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
   s.email = "dev@querobolsa.de"
   s.extra_rdoc_files = [
@@ -39,9 +39,9 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/bootstrap-tooltip.js",
     "vendor/assets/javascripts/bootstrap-transition.js",
     "vendor/assets/javascripts/bootstrap-typeahead.js",
-    "vendor/assets/javascripts/bootstrap.js",
-    "vendor/assets/stylesheets/_bootstrap-responsive.scss",
-    "vendor/assets/stylesheets/_bootstrap.scss",
+    "vendor/assets/javascripts/querobolsa-bootstrap.js",
+    "vendor/assets/stylesheets/_querobolsa-bootstrap-responsive.scss",
+    "vendor/assets/stylesheets/_querobolsa-bootstrap.scss",
     "vendor/assets/stylesheets/bootstrap/_accordion.scss",
     "vendor/assets/stylesheets/bootstrap/_alerts.scss",
     "vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss",
@@ -83,7 +83,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/thiagobrandam/querobolsa-bootstrap-sass"
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.25"
   s.summary = "Twitter's Bootstrap + Sass"
 
   if s.respond_to? :specification_version then

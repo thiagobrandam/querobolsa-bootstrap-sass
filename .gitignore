@@ -1,4 +1,5 @@
 *.gem
 .sass-cache
+*.DS_Store
 bootstrap.css
 bootstrap-responsive.css
