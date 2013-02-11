@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "querobolsa-bootstrap-sass"
-  s.version = "2.0.4.2"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas McDonald"]
@@ -19,10 +19,10 @@ Gem::Specification.new do |s|
   s.files = [
     "LICENSE",
     "README.md",
-    "lib/bootstrap-sass.rb",
-    "lib/bootstrap-sass/compass_functions.rb",
-    "lib/bootstrap-sass/engine.rb",
-    "lib/bootstrap-sass/rails_functions.rb",
+    "lib/querobolsa-bootstrap-sass.rb",
+    "lib/querobolsa-bootstrap-sass/compass_functions.rb",
+    "lib/querobolsa-bootstrap-sass/engine.rb",
+    "lib/querobolsa-bootstrap-sass/rails_functions.rb",
     "templates/project/manifest.rb",
     "templates/project/styles.scss",
     "vendor/assets/images/glyphicons-halflings-white.png",
@@ -39,9 +39,9 @@ Gem::Specification.new do |s|
     "vendor/assets/javascripts/bootstrap-tooltip.js",
     "vendor/assets/javascripts/bootstrap-transition.js",
     "vendor/assets/javascripts/bootstrap-typeahead.js",
-    "vendor/assets/javascripts/querobolsa-bootstrap.js",
-    "vendor/assets/stylesheets/_querobolsa-bootstrap-responsive.scss",
-    "vendor/assets/stylesheets/_querobolsa-bootstrap.scss",
+    "vendor/assets/javascripts/bootstrap.js",
+    "vendor/assets/stylesheets/_bootstrap-responsive.scss",
+    "vendor/assets/stylesheets/_bootstrap.scss",
     "vendor/assets/stylesheets/bootstrap/_accordion.scss",
     "vendor/assets/stylesheets/bootstrap/_alerts.scss",
     "vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss",
