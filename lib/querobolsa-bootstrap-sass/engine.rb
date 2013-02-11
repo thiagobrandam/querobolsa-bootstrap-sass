@@ -1,4 +1,4 @@
-module Bootstrap
+module QuerobolsaBootstrap
   module Rails
     class Engine < ::Rails::Engine
       # Rails, will you please look in our vendor? kthx

@@ -8,8 +8,8 @@ end
 desc 'Dumps output to a CSS file for testing'
 task :debug do
   require 'sass'
-  require './lib/bootstrap-sass/compass_functions'
-  require './lib/bootstrap-sass/rails_functions'
+  require './lib/querobolsa-bootstrap-sass/compass_functions'
+  require './lib/querobolsa-bootstrap-sass/rails_functions'
   path = './vendor/assets/stylesheets'
   %w(querobolsa-bootstrap querobolsa-bootstrap-responsive).each do |file|
     engine = Sass::Engine.for_file("#{path}/_#{file}.scss", syntax: :scss, load_paths: [path])
