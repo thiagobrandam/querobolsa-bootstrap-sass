@@ -11,7 +11,7 @@ task :debug do
   require './lib/bootstrap-sass/compass_functions'
   require './lib/bootstrap-sass/rails_functions'
   path = './vendor/assets/stylesheets'
-  %w(bootstrap bootstrap-responsive).each do |file|
+  %w(querobolsa-bootstrap querobolsa-bootstrap-responsive).each do |file|
     engine = Sass::Engine.for_file("#{path}/_#{file}.scss", syntax: :scss, load_paths: [path])
     File.open("./#{file}.css", 'w') { |f| f.write(engine.render) }
   end
@@ -20,7 +20,7 @@ end
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   gem.name = "querobolsa-bootstrap-sass"
-  gem.version = '2.0.4.2'
+  gem.version = '0.1'
   gem.authors = ["Thomas McDonald"]
   gem.email = 'dev@querobolsa.de'
   gem.summary = "Twitter's Bootstrap + Sass"
