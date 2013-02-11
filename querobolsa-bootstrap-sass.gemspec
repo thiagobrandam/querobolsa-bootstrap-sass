@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "querobolsa-bootstrap-sass"
-  s.version = "0.2.1"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Thomas McDonald"]
@@ -27,18 +27,18 @@ Gem::Specification.new do |s|
     "templates/project/styles.scss",
     "vendor/assets/images/glyphicons-halflings-white.png",
     "vendor/assets/images/glyphicons-halflings.png",
-    "vendor/assets/javascripts/bootstrap-alert.js",
-    "vendor/assets/javascripts/bootstrap-button.js",
-    "vendor/assets/javascripts/bootstrap-carousel.js",
-    "vendor/assets/javascripts/bootstrap-collapse.js",
-    "vendor/assets/javascripts/bootstrap-dropdown.js",
-    "vendor/assets/javascripts/bootstrap-modal.js",
-    "vendor/assets/javascripts/bootstrap-popover.js",
-    "vendor/assets/javascripts/bootstrap-scrollspy.js",
-    "vendor/assets/javascripts/bootstrap-tab.js",
-    "vendor/assets/javascripts/bootstrap-tooltip.js",
-    "vendor/assets/javascripts/bootstrap-transition.js",
-    "vendor/assets/javascripts/bootstrap-typeahead.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-alert.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-button.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-carousel.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-collapse.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-dropdown.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-modal.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-popover.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-scrollspy.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-tab.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-tooltip.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-transition.js",
+    "vendor/assets/javascripts/querobolsa-bootstrap-typeahead.js",
     "vendor/assets/javascripts/querobolsa-bootstrap.js",
     "vendor/assets/stylesheets/_querobolsa-bootstrap-responsive.scss",
     "vendor/assets/stylesheets/_querobolsa-bootstrap.scss",
