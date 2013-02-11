@@ -20,7 +20,7 @@ end
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   gem.name = "querobolsa-bootstrap-sass"
-  gem.version = '0.1.0'
+  gem.version = '0.2'
   gem.authors = ["Thomas McDonald"]
   gem.email = 'dev@querobolsa.de'
   gem.summary = "Twitter's Bootstrap + Sass"
